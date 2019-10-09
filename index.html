@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>DNA_to_RNA</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <div class="pal">
+      <h1>Конвертируйте код ДНК в РНК.</h1>
+      <form class="add-form" method="post" onsubmit="return false">
+        <input class="add-form-input" type="text"  id="dna-input" aria-label="task description" placeholder="Например: А роза упала на лапу Азора." required>
+        <button class="add-form-button" type="submit">Конвертировать</button>
+      </form>
+      <div>
+        <p>ДНК: <span id="dna"></span></p>
+        <p>РНК: <span id="rna"></span> </p>
+
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
