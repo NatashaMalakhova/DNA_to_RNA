@@ -9,7 +9,7 @@ body {
 /* начало меню */
 .top-menu {
   position: relative;
-  background: rgba(34,34,34,.5);
+  background: rgba(34, 34, 34, 0.5);
 }
 .menu-main {
   list-style: none;
